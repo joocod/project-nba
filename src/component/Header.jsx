@@ -20,13 +20,13 @@ function Header() {
 export default Header
 
 const Headercontainer = styled.header`
-     position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
-    padding: 16px 32px;
+    padding: 16px 100px;
     box-sizing: border-box;
-    background: black;
+    background: #03227e;
     width: 100%;
     gap: 48px;
     .logo{
