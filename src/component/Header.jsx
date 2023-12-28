@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import { SiNba } from "react-icons/si";
-import Navigation from './Navigation';
 import styled from 'styled-components';
 
 function Header() {
@@ -11,7 +10,6 @@ function Header() {
                 <h1 className='logo'>
                     <Link to='/'><SiNba /></Link>
                 </h1>
-                <Navigation/>
             </Headercontainer>
         </div>
     )
