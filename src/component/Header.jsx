@@ -19,9 +19,9 @@ export default Header
 
 const Headercontainer = styled.header`
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
-    display: flex;
     padding: 16px 100px;
     box-sizing: border-box;
     background: #03227e;
