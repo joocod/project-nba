@@ -7,15 +7,12 @@ function Mainvideos() {
         <>
             <MainvideoWrapper>
                 <iframe
-                    width="630" 
-                    height="350" 
-                    src="https://www.youtube.com/embed/OJS1BVniz5c?si=9EVOYieWnVPmQX8J"
-                    title='nba2k24'
+                    width="900" 
+                    height="600" 
+                    src="https://www.youtube.com/embed/LM3jziC3JFs?si=O_z-cTMtBRkNoug_"
+                    title='highlight'
                 >
                 </iframe>
-                <Description>
-                    <h2>NBA 2K24 MyTEAM: SEASONS PLAYBOOK</h2>
-                </Description>
             </MainvideoWrapper>
         </>
     )
@@ -27,13 +24,6 @@ const MainvideoWrapper = styled.div`
     display: flex;
     position: fixed;
     top: 120px;
-    left: 110px;
+    left: 130px;
     z-index: 99;
-`
-const Description = styled.div`
-    width: 630px;
-    height: 350px;
-    background-color: transparent;
-    color: white;
-    margin-left: 72px;
 `
