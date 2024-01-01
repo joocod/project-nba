@@ -18,8 +18,8 @@ function Header() {
 export default Header
 
 const Headercontainer = styled.header`
-    position: fixed;
     display: flex;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 16px 100px;

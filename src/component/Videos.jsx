@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Mainvideos() {
+function Videos() {
 
     return (
         <>
-            <MainvideoWrapper>
+            <MainvideoContainer>
                 <iframe
                     width="900" 
                     height="600" 
@@ -13,14 +13,14 @@ function Mainvideos() {
                     title='highlight'
                 >
                 </iframe>
-            </MainvideoWrapper>
+            </MainvideoContainer>
         </>
     )
 }
 
-export default Mainvideos
+export default Videos
 
-const MainvideoWrapper = styled.div`
+const MainvideoContainer = styled.div`
     display: flex;
     position: fixed;
     top: 120px;

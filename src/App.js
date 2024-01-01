@@ -2,7 +2,8 @@ import './App.css';
 import GlobalStyle from './style/GlobalStyle';
 import Main from './pages/Main';
 import Search from './component/Search';
-import Mainvideos from './component/Mainvideos';
+import Mainvideo from './pages/Mainvideo';
+import Descrip from './component/Descrip';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <GlobalStyle/>
         <Main/>
         <Search/>
-        <Mainvideos/>
+        <Mainvideo/>
+        <Descrip/>
       </>
   );
 }
