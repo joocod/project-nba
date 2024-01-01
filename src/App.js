@@ -4,6 +4,7 @@ import Main from './pages/Main';
 import Search from './component/Search';
 import Mainvideo from './pages/Mainvideo';
 import Descrip from './component/Descrip';
+import ShortForm from './component/ShortForm';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Search/>
         <Mainvideo/>
         <Descrip/>
+        <ShortForm/>
       </>
   );
 }

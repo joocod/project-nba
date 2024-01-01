@@ -5,7 +5,7 @@ function Descrip() {
     return (
         <>
             <Description>
-                <h2>오늘의 하이라이트</h2>
+                <h2>오늘의 nba</h2>
             </Description>
         </>
     )
@@ -18,8 +18,8 @@ const Description = styled.div`
     position: fixed;
     right: 110px;
     top: 120px;
+    padding: 30px 0 0 30px;
     width: 350px;
-    height: 600px;
-    background-color: transparent;
-    color: white;
+    height: 570px;
+    background-color: white;
 `

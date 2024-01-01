@@ -62,7 +62,7 @@ input{
     border: none;
 }
 body,html{
-	background: #2d2d2d;
+	background: #ededed;
 	&.no-scroll{
 		overflow-y: hidden;
 	}
