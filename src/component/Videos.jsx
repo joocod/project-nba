@@ -22,8 +22,8 @@ export default Videos
 
 const MainvideoContainer = styled.div`
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 120px;
     left: 130px;
-    z-index: 99;
+    z-index: -11;
 `

@@ -24,7 +24,7 @@ const Headercontainer = styled.header`
     left: 0;
     padding: 16px 100px;
     box-sizing: border-box;
-    background: #03227e;
+    background: #000036;
     width: 100%;
     gap: 48px;
     .logo{
