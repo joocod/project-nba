@@ -1,13 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
-
-import {Swiper} from 'swiper/react'; 
-import { Navigation, Pagination } from 'swiper/modules';
-
-import 'swiper/css';                // swiper 기본 css 적용 import
-import 'swiper/css/navigation';     // swiper 좌우 버튼 기본 css
-import 'swiper/css/pagination';     // swiper dot-list 기본 css   
-
+import styled from 'styled-components' 
 
 function Com() {
 
@@ -15,16 +7,6 @@ function Com() {
         <div>
             <ComsContainer>
                 <ComsTitle>응원방</ComsTitle>
-                <Swiper
-                    spaceBetween={10}
-                    slidesPerview={4}
-                    slidesPerGroup={4}
-                    loop
-                    modules={[Navigation, Pagination]}
-                    navigation
-                    pagination
-                >
-                </Swiper>
             </ComsContainer>
         </div>
     )
